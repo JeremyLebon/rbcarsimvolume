@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/install
+
+Name: rbcar_msgs
+Description: Description of rbcar_msgs
+Version: 0.1.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: actionlib_msgs message_runtime std_msgs geometry_msgs robotnik_msgs

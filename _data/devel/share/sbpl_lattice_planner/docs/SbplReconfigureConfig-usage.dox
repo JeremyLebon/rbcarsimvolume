@@ -1,0 +1,9 @@
+\subsubsection usage Usage
+\verbatim
+<node name="sbpl_lattice_planner" pkg="sbpl_lattice_planner" type="sbpl_lattice_planner">
+  <param name="maximum_time_between_plannings" type="double" value="30.0" />
+  <param name="distance_between_plannings" type="double" value="30.0" />
+  <param name="maximum_planning_distance" type="double" value="50.0" />
+</node>
+\endverbatim
+

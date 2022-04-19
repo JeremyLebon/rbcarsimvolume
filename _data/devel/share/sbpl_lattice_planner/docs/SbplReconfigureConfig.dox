@@ -1,0 +1,8 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~maximum_time_between_plannings" : \b [double] Maximum time between planning (to use in case robot is stuck) min: 0.0, default: 30.0, max: 60.0
+- \b "~distance_between_plannings" : \b [double] Distance that has to be travelled between plannings min: 0.0, default: 30.0, max: 200.0
+- \b "~maximum_planning_distance" : \b [double] Look a head distance for planning min: 0.0, default: 50.0, max: 1000.0
+

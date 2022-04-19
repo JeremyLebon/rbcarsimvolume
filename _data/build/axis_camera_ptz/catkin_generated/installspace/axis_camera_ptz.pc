@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/install
+
+Name: axis_camera_ptz
+Description: Description of axis_camera_ptz
+Version: 0.3.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

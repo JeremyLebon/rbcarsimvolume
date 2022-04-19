@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/devel
+
+Name: sbpl_lattice_planner
+Description: Description of sbpl_lattice_planner
+Version: 0.3.4
+Cflags: -I/root/catkin_ws/devel/include -I/root/catkin_ws/src/navigation_experimental/sbpl_lattice_planner/include -I/opt/ros/melodic/include
+Libs: -L${prefix}/lib -lsbpl_lattice_planner /opt/ros/melodic/lib/libsbpl.so
+Requires: roscpp costmap_2d nav_core pluginlib tf2 geometry_msgs nav_msgs message_runtime
