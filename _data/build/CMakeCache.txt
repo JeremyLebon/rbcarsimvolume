@@ -380,6 +380,36 @@ costmap_2d_DIR:PATH=/opt/ros/melodic/share/costmap_2d/cmake
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/melodic/share/cpp_common/cmake
 
+//Value Computed by CMake
+cpr_agriculture_gazebo_BINARY_DIR:STATIC=/root/catkin_ws/build/cpr_gazebo/cpr_agriculture_gazebo
+
+//Value Computed by CMake
+cpr_agriculture_gazebo_SOURCE_DIR:STATIC=/root/catkin_ws/src/cpr_gazebo/cpr_agriculture_gazebo
+
+//Value Computed by CMake
+cpr_inspection_gazebo_BINARY_DIR:STATIC=/root/catkin_ws/build/cpr_gazebo/cpr_inspection_gazebo
+
+//Value Computed by CMake
+cpr_inspection_gazebo_SOURCE_DIR:STATIC=/root/catkin_ws/src/cpr_gazebo/cpr_inspection_gazebo
+
+//Value Computed by CMake
+cpr_obstacle_gazebo_BINARY_DIR:STATIC=/root/catkin_ws/build/cpr_gazebo/cpr_obstacle_gazebo
+
+//Value Computed by CMake
+cpr_obstacle_gazebo_SOURCE_DIR:STATIC=/root/catkin_ws/src/cpr_gazebo/cpr_obstacle_gazebo
+
+//Value Computed by CMake
+cpr_office_gazebo_BINARY_DIR:STATIC=/root/catkin_ws/build/cpr_gazebo/cpr_office_gazebo
+
+//Value Computed by CMake
+cpr_office_gazebo_SOURCE_DIR:STATIC=/root/catkin_ws/src/cpr_gazebo/cpr_office_gazebo
+
+//Value Computed by CMake
+cpr_orchard_gazebo_BINARY_DIR:STATIC=/root/catkin_ws/build/cpr_gazebo/cpr_orchard_gazebo
+
+//Value Computed by CMake
+cpr_orchard_gazebo_SOURCE_DIR:STATIC=/root/catkin_ws/src/cpr_gazebo/cpr_orchard_gazebo
+
 //The directory containing a CMake configuration file for dynamic_reconfigure.
 dynamic_reconfigure_DIR:PATH=/opt/ros/melodic/share/dynamic_reconfigure/cmake
 
@@ -388,6 +418,12 @@ filters_DIR:PATH=/opt/ros/melodic/share/filters/cmake
 
 //The directory containing a CMake configuration file for gazebo_msgs.
 gazebo_msgs_DIR:PATH=/opt/ros/melodic/share/gazebo_msgs/cmake
+
+//Value Computed by CMake
+gazebo_race_modules_BINARY_DIR:STATIC=/root/catkin_ws/build/cpr_gazebo/cpr_race_modules
+
+//Value Computed by CMake
+gazebo_race_modules_SOURCE_DIR:STATIC=/root/catkin_ws/src/cpr_gazebo/cpr_race_modules
 
 //The directory containing a CMake configuration file for gazebo_ros.
 gazebo_ros_DIR:PATH=/opt/ros/melodic/share/gazebo_ros/cmake
@@ -645,6 +681,9 @@ rosgraph_DIR:PATH=/opt/ros/melodic/share/rosgraph/cmake
 //The directory containing a CMake configuration file for rosgraph_msgs.
 rosgraph_msgs_DIR:PATH=/opt/ros/melodic/share/rosgraph_msgs/cmake
 
+//The directory containing a CMake configuration file for roslaunch.
+roslaunch_DIR:PATH=/opt/ros/melodic/share/roslaunch/cmake
+
 //The directory containing a CMake configuration file for roslib.
 roslib_DIR:PATH=/opt/ros/melodic/share/roslib/cmake
 
@@ -874,7 +913,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=25
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=31
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/_data/src/axis_camera_ptz" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/_data/src/cpr_gazebo" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/_data/src/joint_read_command_controller" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/_data/src/navigation_experimental" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/_data/src/rbcar_common" vcs="Git" />
